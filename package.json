@@ -18,6 +18,8 @@
         "postcss": "^8.1.14",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.82.0",
-        "sass-loader": "^12.6.0"
+        "sass-loader": "^12.6.0",
+        "stylus": "^0.64.0",
+        "stylus-loader": "^8.1.1"
     }
 }

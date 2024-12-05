@@ -15,4 +15,10 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
-mix.sass('resources/scss/app.scss', 'public/css/style.css');
+mix.less('resources/less/style.less', 'public/css')
+.less('resources/less/admin.less', 'public/css')
+.sass('resources/scss/app.scss', 'public/css/style.css')
+.stylus('resources/stylus/app.styl', 'public/css');
+// .styles('resources/css/style.css', 'public/css');
+
+
